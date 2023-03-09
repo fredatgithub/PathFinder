@@ -1,11 +1,10 @@
 PathFinder
 ==========
+Implementation of finding a path from point A to point B. Test.
 
-Реализация поиска пути из точки А в точку Б. Тестовый.
+##Initial data
 
-## Исходные данные
-
-Исходные данных представлены в XML файле в следующем формате:
+The initial data is presented in the XML file in the following format:
 	
 	<?xml version="1.0"?>
 	<root>
@@ -23,10 +22,10 @@ PathFinder
 		</nodes>
 	</root>
 
-`cities` представляет набор населенных пунктов, `nodes` - направления между ними (с расстояниями).
+`cities` represents a set of settlements, `nodes` - directions between them (with distances).
 
-Файл называется `data.xml` и помещается в одну папку с собранной сборкой - в `bin/debug` или `bin/release`.
+The file is called `data.xml` and is placed in the same folder with the built assembly - in `bin/debug` or `bin/release`.
 
-## Планы:
- * Проверить алгоритм на корректность;
- * Реализовать визуализацию населенных пунктов и путей;
+## Plans:
+ * Check the algorithm for correctness;
+ * Implement visualization of settlements and paths;
